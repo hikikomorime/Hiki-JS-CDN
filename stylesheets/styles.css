@@ -665,6 +665,10 @@ table {
   border-collapse: collapse;
 }
 
+#yello {
+  	color: #ffcc00;
+  }
+
 th {
   text-align: left;
   padding: 5px 10px;
