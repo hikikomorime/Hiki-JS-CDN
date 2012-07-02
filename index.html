@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.tablesorter.min.js"></script> 
+    <script type="text/javascript">
+    $(document).ready(function() 
+    { 
+        $("#jsTable").tablesorter(); 
+    } 
+); 
+    </script>
     <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -43,6 +51,23 @@
 <p>For example you want to use jQuery on your site. Then just paste this code into your HEAD section</p>
 
 <script src="https://gist.github.com/3035406.js?file=head section"></script>
+
+<table id="jsTable" class="tablesorter"> 
+<thead> 
+<tr> 
+    <th>Name</th> 
+    <th>Version</th> 
+    <th>CDN</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+    <td>jQuery</td> 
+    <td>1.7.2</td> 
+    <td>http://opencdn.me/base/jquery/1.7.2/jquery.js</td> 
+</tr> 
+</tbody> 
+</table> 
 
 <div id="title">
           <hr>
