@@ -12,7 +12,7 @@
   <tr ng-repeat="project in projects | filter:search | orderBy:'name'">
     <td><a href="{{project.site}}" target="_blank">{{project.name}}</a></td>
     <td>{{project.version}}</td>
-    <td>{{project.description}}</td>
+    <td>http://opencdn.me/script/{{project.description}}</td>
     <td>
       <a href="#/edit/{{project._id.$oid}}">edit<i class="icon-pencil"></i></a>
     </td>
