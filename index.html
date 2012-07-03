@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="project">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script type="text/javascript" src="script/jquery.js"></script>
+    <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
+    <script src="http://code.angularjs.org/angular-resource-1.0.1.min.js">
+    </script>
+    <script src="project.js"></script>
+    <script src="mongolab.js"></script>
     <script type="text/javascript" src="javascripts/jquery.tablesorter.min.js"></script> 
     <script type="text/javascript">
 $(document).ready(function() 
@@ -50,6 +55,9 @@ $(document).ready(function()
 
 <h3>Always up to date!</h3>
 <p>Be sure that the script you are using is always up to date and you have the <span class="yello">latest version available</span>. No need to check library websites or update the links in your code. <span class="whit">Open<span class="yello">CDN</span>.me</span> will take care of that. <br />All scripts are <span class="yello">minified</span> so your website should not gain too much additional weight.</p>
+
+<h3>Angular list</h3>
+<div ng-view></div>
 
 <h3>Choose your destiny</h3>
 
