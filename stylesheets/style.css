@@ -1,0 +1,50 @@
+		h1.fontface {font: 85px/68px 'CaviarDreamsRegular', Arial, sans-serif;letter-spacing: 0; line-height: 0.1;}
+		.redish {color: #E2413A;}
+		.redishback {background-color: #E2413A; height: 28px; margin: 0; padding: 0; z-index: 2;}
+		.redishbackmain {background-color: #E2413A; height: 28px; margin: 0; padding: 0; position: relative; top: 341px; z-index: -1;}
+		.greyishback {background-color: #f5f5f5; color: #E2413A; padding-left: 10px; padding-right: 10px; font: 26px/28px 'CaviarDreamsBold', Arial, sans-serif; z-index: 1;}
+		
+		#container {
+			width: 760px;
+			margin: -28px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		body {
+			background-color: #f5f5f5;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			font-family: 'CaviarDreamsBold', Arial, sans-serif;
+			font-size: 19px;
+		}
+		
+		table {
+		width: 100%;
+		}
+		
+		th {
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1px solid #434343;
+  color: #b6b6b6;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+td {
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1px solid #434343;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 15px;
+}
+input,textarea,select,.uneditable-input{display:inline-block;width:210px;height:18px;padding:4px;margin-bottom:9px;font-size:13px;line-height:18px;color:#555555;border:1px solid #cccccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+
+dt {
+  color: #F0E7D5;
+  font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: normal;
+}
+a {color: #E2413A; text-decoration: none;}
