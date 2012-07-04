@@ -1,6 +1,6 @@
 		h1.fontface {font: 85px/68px 'CaviarDreamsRegular', Arial, sans-serif;letter-spacing: 0; line-height: 0.1;}
 		.redish {color: #E2413A;}
-		.redishback {background-color: #E2413A; height: 28px; margin: 0; padding: 0; z-index: 2;}
+		.redishback {height: 28px; margin: 0; padding: 0; z-index: 2;}
 		.redishbackmain {background-color: #E2413A; height: 28px; margin: 0; padding: 0; position: relative; top: 341px; z-index: -1;}
 		.greyishback {background-color: #f5f5f5; color: #E2413A; padding-left: 10px; padding-right: 10px; font: 26px/28px 'CaviarDreamsBold', Arial, sans-serif; z-index: 1;}
 		
