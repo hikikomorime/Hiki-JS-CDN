@@ -1,6 +1,6 @@
 <form name="myForm">
   <div class="control-group" ng-class="{error: myForm.name.$invalid}">
-    <label>Script name</label>
+    <label>Name</label>
     <input type="text" name="name" ng-model="project.name" required>
     <span ng-show="myForm.name.$error.required" class="help-inline">
         *</span>
@@ -23,7 +23,7 @@
   </div>
   
    <div class="control-group" ng-class="{error: myForm.description.$invalid}">
-    <label>CDN file</label>
+    <label>File</label>
     <input type="text" name="description" ng-model="project.description" required>
     <span ng-show="myForm.name.$error.required" class="help-inline">
         *</span>
