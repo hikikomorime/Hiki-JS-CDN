@@ -1,4 +1,5 @@
 		h1.fontface {font: 85px/68px 'CaviarDreamsRegular', Arial, sans-serif;letter-spacing: 0; line-height: 0.1;}
+		h2 {font: 23px/26px 'CaviarDreamsRegular', Arial, sans-serif;letter-spacing: 0; line-height: 0.1; color: #E2413A;}
 		.redish {color: #E2413A;}
 		.redishback {height: 28px; margin: 0; padding: 0; z-index: 2;}
 		.redishbackmain {background-color: #E2413A; height: 28px; margin: 0; padding: 0; position: relative; top: 341px; z-index: -1;}
