@@ -54,7 +54,7 @@ a {color: #E2413A; text-decoration: none;}
 #social-facebook {position: relative; top: -12px; color: #436EAC;}
 #social-twitter {position: relative; top: -12px; color: #0598C9;}
 
-#navirel {position: relative;}
+#navirel {position: relative; line-height: 40px;}
 
 /* bootstrap */
 
