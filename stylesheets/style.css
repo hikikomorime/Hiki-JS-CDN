@@ -50,9 +50,12 @@ dt {
 }
 a {color: #E2413A; text-decoration: none;}
 
-#social-gplus {position: relative; top: -12px;}
-#social-facebook {position: relative; top: -12px; color: #436EAC;}
-#social-twitter {position: relative; top: -12px; color: #0598C9;}
+.social-gplus {position: relative; top: -12px;}
+a.social-gplus:link {color: #000000;}
+.social-facebook {position: relative; top: -12px; color: #436EAC;}
+a.social-facebook:link {color: #436EAC;}
+.social-twitter {position: relative; top: -12px; color: #0598C9;}
+a.social-twitter:link {color: #0598C9;}
 
 #navirel {position: relative; line-height: 40px;}
 
