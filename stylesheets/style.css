@@ -58,6 +58,7 @@ a.social-facebook:link {color: #436EAC;}
 a.social-twitter:link {color: #0598C9;}
 
 #navirel {position: relative;}
+.lister {height: 240px; overflow: hidden;}
 
 /* bootstrap */
 
