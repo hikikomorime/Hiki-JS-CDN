@@ -9,7 +9,7 @@
   </tr>
   </thead>
   <tbody>
-  <tr ng-repeat="project in projects | filter:search | orderBy:'name'">
+  <tr ng-repeat="project in projects | filter:search | orderBy:'name' | limitTo:5">
     <td><a href="{{project.site}}" target="_blank">{{project.name}}</a></td>
     <td style="color: #0598C9;">{{project.version}}</td>
     <td>http://opencdn.me/script/{{project.description}}</td>
