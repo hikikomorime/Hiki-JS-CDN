@@ -58,7 +58,7 @@ a.social-facebook:link {color: #436EAC;}
 a.social-twitter:link {color: #0598C9;}
 
 #navirel {position: relative;}
-.lister {height: 248px; overflow: hidden;}
+.lister {overflow: hidden; max-height: 248px;}
 
 /* bootstraps */
 
