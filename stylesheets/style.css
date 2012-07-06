@@ -50,6 +50,10 @@ dt {
 }
 a {color: #E2413A; text-decoration: none;}
 
+.blue {color: #436EAC;}
+.lightblue {color: #358ff6}
+.green {color: #078125}
+
 .social-gplus {position: relative; top: -12px;}
 a.social-gplus:link {color: #000000;}
 .social-facebook {position: relative; top: -12px; color: #436EAC;}
