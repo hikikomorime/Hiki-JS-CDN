@@ -3,9 +3,9 @@ angular.module('mongolab', ['ngResource']).
     factory('Project', function($resource) {
       var Project = $resource('https://api.mongolab.com/api/1/databases' +
           '/opencdn/collections/projects/:id',
-          { apiKey: '4ff2bbdee4b0216667a372f3' }, {
-            update: { method: 'PUT' }
-          }
+          { apiKey: '4ff2bbdee4b0216667a372f3' } //, {
+          //  update: { method: 'PUT' }
+         // }
       );
  
       Project.prototype.update = function(cb) {
