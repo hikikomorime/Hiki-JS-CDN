@@ -4,6 +4,8 @@ angular.module('project', ['mongolab']).
       when('/', {controller:ListCtrl, templateUrl:'intro.html'}).
       when('/intro', {controller:ListCtrl, templateUrl:'intro.html'}).
       when('/datacenters', {controller:ListCtrl, templateUrl:'where.html'}).
+      when('/why', {controller:ListCtrl, templateUrl:'why.html'}).
+      when('/how', {controller:ListCtrl, templateUrl:'how.html'}).
       when('/list', {controller:ListCtrl, templateUrl:'list.html'}).
       when('/edit/:projectId', {controller:EditCtrl, templateUrl:'detail.html'}).
       when('/new', {controller:CreateCtrl, templateUrl:'detail.html'}).
