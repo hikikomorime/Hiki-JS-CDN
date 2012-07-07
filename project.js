@@ -6,6 +6,7 @@ angular.module('project', ['mongolab']).
       when('/datacenters', {controller:ListCtrl, templateUrl:'where.html'}).
       when('/why', {controller:ListCtrl, templateUrl:'why.html'}).
       when('/how', {controller:ListCtrl, templateUrl:'how.html'}).
+      when('/missing', {controller:ListCtrl, templateUrl:'missing.html'}).
       when('/list', {controller:ListCtrl, templateUrl:'list.html'}).
       when('/edit/:projectId', {controller:EditCtrl, templateUrl:'detail.html'}).
       when('/new', {controller:CreateCtrl, templateUrl:'detail.html'}).
