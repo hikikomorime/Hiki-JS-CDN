@@ -3,6 +3,7 @@ angular.module('project', ['mongolab']).
     $routeProvider.
       when('/', {controller:ListCtrl, templateUrl:'intro.html'}).
       when('/intro', {controller:ListCtrl, templateUrl:'intro.html'}).
+      when('/datacenters', {controller:ListCtrl, templateUrl:'where.html'}).
       when('/list', {controller:ListCtrl, templateUrl:'list.html'}).
       when('/edit/:projectId', {controller:EditCtrl, templateUrl:'detail.html'}).
       when('/new', {controller:CreateCtrl, templateUrl:'detail.html'}).
