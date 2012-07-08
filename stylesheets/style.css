@@ -54,6 +54,8 @@ a {color: #E2413A; text-decoration: none;}
 .lightblue {color: #358ff6}
 .green {color: #078125}
 
+a.navis:link {color: white; font-size: 17px;}
+
 .social-gplus {position: relative; top: -12px;}
 a.social-gplus:link {color: #000000;}
 .social-facebook {position: relative; top: -12px; color: #436EAC;}
