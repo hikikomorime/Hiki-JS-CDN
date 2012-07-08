@@ -55,6 +55,8 @@ a {color: #E2413A; text-decoration: none;}
 .green {color: #078125}
 
 a.navis:link {color: white; font-size: 17px;}
+a.navis:active {color: white; font-size: 17px;}
+a.navis:visited {color: white; font-size: 17px;}
 
 .social-gplus {position: relative; top: -12px;}
 a.social-gplus:link {color: #000000;}
